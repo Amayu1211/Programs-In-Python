@@ -79,16 +79,7 @@ for num in range(start, end + 1):
         print(num, end = " ")
 
 
-  # Python Programto print odd numbers within a given range. 
-
- 
-lower=int(input("Enter the lower limit for the range:"))
-upper=int(input("Enter the upper limit for the range:"))
-for i in range(lower,upper+1):
-    if(i%2!=0):
-        print(i)
-
-
+  
  # To Create Star pattern
 rows = 10
 for i in range(0, rows):
@@ -114,13 +105,13 @@ for i in range(rows, -1, -1):
 
 #quilateral triangle Pyramid 
     print("Print equilateral triangle Pyramid using asterisk symbol ")
-# printing full Triangle pyramid using stars
+
 size = 7
 m = (2 * size) - 2
 for i in range(0, size):
     for j in range(0, m):
         print(end=" ")
-    # decrementing m after each loop
+    
     m = m - 1
     for j in range(0, i + 1):
         print("* ", end=' ')
